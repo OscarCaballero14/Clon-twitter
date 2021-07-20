@@ -1,0 +1,109 @@
+*{
+	box-sizing: border-box;
+	font-family: "arial", sans-serif;
+	text-decoration: none;
+}
+
+.contenedor{
+	width: 100%;
+	min-height: 95%;
+	display: flex;
+}
+
+.contenedor-left{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 50%;
+	background-image: url(../IMG/001.png);
+	background-color: dodgerblue;
+}
+
+.contenedor-left i{
+	font-size: 350px;
+	color: #fff;
+}
+
+.contenedor-right{
+	width: 50%;
+	padding: 35px;
+}
+
+.contenedor-right i{
+	font-size: 50px;
+	color: dodgerblue;
+}
+
+.texto{
+	width: 500px;
+}
+
+.texto h1{
+	font-size: 65px;
+}
+
+.contenedor-right h3{
+	font-size: 32px;
+}
+
+.botones{
+	margin-bottom: 18px;
+	max-width: 320px;
+}
+
+button{
+	width: 100%;
+	padding: 15px 30px;
+	border: none;
+	border-radius: 25px;
+	font-size: 12px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.boton-reg{
+	background-color: dodgerblue;
+	color: #fff;
+	transition: 0.3s;
+}
+
+.boton-reg:hover{
+	background-color: #1680E6;
+}
+
+.boton-inic{
+	border: 1px solid dodgerblue;
+	color: dodgerblue;
+}
+
+footer{
+	margin-right: auto;
+	margin-left: auto;
+	padding: 8px 8px;
+}
+
+.links{
+	text-align: center;
+	padding: 5px 5px;
+	font-size: 11px;
+	line-height: 19px;
+}
+
+.links a{
+	margin-right: 6px;
+	color: gray;
+}
+
+.links a:hover{
+	text-decoration: underline;
+}
+
+.twitter{
+	display: inline;
+	font-size: 11px;
+	color: gray;
+}
+
+.twitter:before{
+	content: "© 2021 Twitter. Inc";
+}
